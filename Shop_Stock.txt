@@ -1,0 +1,9 @@
+ASUS ROG Zephyrus G14, ASUS, $1499.0, 224, Ryzen 9 5900HS, RTX 3060, asus_rog_Zephyrus_G14_laptop.jpg
+MSI GE75 Raider, MSI, $1899.0, 12, i7 11th Gen, RTX 3070, MSI_GE75_Raider.jpg
+Acer Predator Helios 300, Acer, $1299.0, 18, i7 10th Gen, RTX 2060, acer_predator_helios_300.jpg
+Dell XPS 15, Dell, $1799.0, 30, i7 11th Gen, GTX 1650 Ti, Dell_XPS_15.jpg
+HP Omen 15, HP, $1399.0, 20, Ryzen 7 4800H, GTX 1660 Ti, HP_Omen_16.jpg
+Lenovo Legion 5 Pro, Lenovo, $1999.0, 15, Ryzen 7 5800H, RTX 3070, Lenovo_Legion_5.jpg
+Gigabyte Aero 15 OLED, Gigabyte, $2199.0, 80, i7 11th Gen, RTX 3070, Gigabyte_AERO_15_OLED.jpg
+Razer Blade Stealth 13, Razer, $1499.0, 422, i7 11th Gen, GTX 1650 Ti, Razer_Blade_Stealth_13.jpg
+MSI GS66 Stealth, MSI, $1999.0, 10, i7 11th Gen, RTX 3080, MSI_GS66_Stealth.jpg
