@@ -1,0 +1,98 @@
+
+<HomeScreen>:
+	MDBoxLayout:
+	    id: home_box
+		orientation: "vertical"
+		TopBar:
+        SearchBar:
+
+    	FadeScrollView:
+    	    id: home_scroll
+            fade_height: dp(40)
+            fade_color: root.md_bg_color
+
+    		MDGridLayout:
+    			id: laptop_grid
+    			padding: "15dp"
+    			cols: 2
+    			size_hint_y: None
+    			height: self.minimum_height
+    			spacing: "15dp"
+
+    			MDChip:
+    			    text: f"[b]Popular Products[/b]"
+    			    text_color:  "black"
+    			    markup: True
+    			    icon_right: 'fire'
+    			    icon_right_color: "red"
+    			MDRoundFlatIconButton:
+    			    text: "Sort By"
+    			    pos_hint: {"center_x":.2}
+                    size_hint_x: .1
+                    icon: "chevron-down"
+
+    			
+    			
+
+<MD3Card>
+	id: laptop_card
+    padding: 3
+    size_hint: None, None
+    size: dp(190), dp(320)
+    spacing: "24dp"
+    style:"elevated"
+    md_bg_color:"white"
+    line_color:(0.2, 0.2, 0.2, 0.8)
+    shadow_softness:2
+    shadow_offset:(0, 1)
+    radius: 20,20,20,20
+    ripple_behaviour: True
+    on_press: self.click(app,laptop_card.laptop)
+    MDRelativeLayout:
+        AsyncImage:
+            source: laptop_card.laptop.image
+            size_hint_y: .7
+            pos_hint: {"top": 1}
+            allow_stretch: True
+            keep_ratio: True
+            mipmap: True
+
+        MDLabel:
+            text: f"[color=#A9A9A9] {laptop_card.laptop.brand}[/color]{laptop_card.laptop.name[len(laptop_card.laptop.brand):]}"
+            adaptive_size: True
+            color: "black"
+            pos_hint: {"center_y":0.3,"center_x":0.5}
+            spacing: "4dp","4dp"
+            font_style: 'Subtitle1'
+            bold: True
+            markup: True
+        MDLabel:
+            text: f"${laptop_card.laptop.price}"
+            adaptive_size: True
+            color: "#808000"
+            pos_hint: {"center_y":0.2,'center_x':0.5}
+            bold: True
+
+        MDRoundFlatIconButton:
+            id: laptop_buy
+            icon: "cart-variant"
+            text: "Buy"
+            icon_color: "green"
+            line_color: "green"
+            text_color: "green"
+            pos_hint: {"center_y":0.07,"center_x":.23}
+
+
+        CartButton:
+            id: laptop_cart
+            icon: "cart-plus"
+            text: "Cart"
+            icon_color: "red"
+            line_color: "red"
+            text_color: "red"
+            pos_hint: {"center_y":0.07,"center_x":.74}
+
+
+
+
+
