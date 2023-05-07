@@ -1,0 +1,11 @@
+<-------Transaction Details-------->
+
+[*] Transaction ID: 9843e1ebb1b0cd86
+[*] Laptop: ASUS ROG Zephyrus G14
+[*] Brand: ASUS
+[*] Distributor: Cyber Technologies
+[*] Purchased at: 21 April, 2023 -- 18:01:23
+[*] Quantity: 100
+[*] Laptop Cost: $149,900.0
+[*] VAT: $19,487.0
+[*] Total Payment: $169,387.0

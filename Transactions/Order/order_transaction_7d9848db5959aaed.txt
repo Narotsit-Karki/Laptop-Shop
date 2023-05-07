@@ -1,0 +1,11 @@
+<-------Transaction Details-------->
+
+[*] Transaction ID: 7d9848db5959aaed
+[*] Laptop: Razer Blade Stealth 13
+[*] Brand: Razer
+[*] Distributor: Advanced Computing Corp
+[*] Purchased at: 21 April, 2023 -- 18:02:07
+[*] Quantity: 400
+[*] Laptop Cost: $599,600.0
+[*] VAT: $77,948.0
+[*] Total Payment: $677,548.0
